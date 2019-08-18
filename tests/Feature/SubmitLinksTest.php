@@ -22,7 +22,7 @@ class SubmitLinksTest extends TestCase
         ]);
 
         $this->assertDatabaseHas('links', [
-            'title' => 'Example Title'
+            'title' => 'Example Title',
         ]);
 
         $response
